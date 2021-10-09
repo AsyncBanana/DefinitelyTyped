@@ -127,11 +127,11 @@ declare module 'path' {
             /**
              * The platform-specific file separator. '\\' or '/'.
              */
-            readonly sep: string;
+            readonly sep: "\\\\"|"/";
             /**
              * The platform-specific file delimiter. ';' or ':'.
              */
-            readonly delimiter: string;
+            readonly delimiter: ";"|":";
             /**
              * Returns an object from a path string - the opposite of format().
              *
